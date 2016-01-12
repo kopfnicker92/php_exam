@@ -1,0 +1,67 @@
+@import url(normalize.css);
+
+main {
+	max-width: 960px;
+	margin: 40px auto;
+}
+
+.hidden-mail {
+	display: none;
+}
+
+.btn-logout {
+	float: right;
+	background: #D9CFE8;
+	padding: 10px;
+	color: #fff;
+}
+
+a {
+	text-decoration: none;	
+}
+
+h2 {
+	margin-top: 20px;
+}
+
+label {
+	display: block;
+	margin-top: 20px;
+}
+
+input {
+	width: 200px;
+	display: block;
+	padding: 7px;
+	outline: none;
+	border: 1px solid #D9CFE8;
+	font-size: 12px;
+}
+
+input[name=btnSignup], input[name=btnLogin], input[name=btnDelete], input[name=btnUpdate] {
+	margin-top: 15px;
+	width: 216px;
+	border: none;
+	cursor: pointer;
+	background: #F8CBAC;
+	color: #fff;
+	padding: 0;
+	height: 32px;
+	line-height: 32px;
+	letter-spacing: 1px;
+}
+
+input[name=btnSignup]:hover, input[name=btnLogin]:hover, input[name=btnDelete]:hover, input[name=btnUpdate]:hover {
+	background: #D9CFE8;
+}
+
+p {
+	margin: 0;
+}
+
+.error {
+	font-family: sans-serif;
+	font-size: 12px;
+	color: #8E7FAA;
+	margin-top: 6px;
+}
